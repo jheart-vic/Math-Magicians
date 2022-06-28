@@ -1,10 +1,13 @@
 # Math-Magicians
+- This is a calculator App, that helps you do maths functions.
 
 ## Built With
 
 - HTML
 - CSS
 -React
+
+## Live demo link (Not Available)
 
 ## Getting Started
 
