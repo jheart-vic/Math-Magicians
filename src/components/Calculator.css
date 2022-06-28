@@ -31,7 +31,7 @@
 .btns-container {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #e4e4e4;
   height: 300px;
 }
 
