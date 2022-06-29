@@ -1,17 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class InputResult extends React.PureComponent {
-  render() {
-    const { displayState } = this.props;
+const InputResult = (props) => {
+  const { displayState } = props;
 
-    return (
-      <div className="input">
-        {displayState.next || displayState.operation || displayState.total || 0}
-      </div>
-    );
-  }
-}
+  return (
+    <div className="input">
+      {displayState.next || displayState.operation || displayState.total || 0}
+    </div>
+  );
+};
 
 InputResult.propTypes = {
   displayState: PropTypes.shape({
