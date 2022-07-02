@@ -23,9 +23,14 @@ const Calculator = () => {
 
   const { obj } = state;
   return (
-    <div className="container">
-      <InputResult displayState={obj} />
-      <Button buttonClick={onButtonClick} />
+    <div className="wrapper">
+      <div className="text">
+        <h2>Let&apos;s do some Maths!</h2>
+      </div>
+      <div className="container">
+        <InputResult displayState={obj} />
+        <Button buttonClick={onButtonClick} />
+      </div>
     </div>
   );
 };
