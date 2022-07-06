@@ -1,6 +1,4 @@
 import { screen,fireEvent, render} from '@testing-library/react';
-// import Button from '../components/button';
-// import InputResult from '../components/inputDisplay'
 import Calculator from '../components/Calculator'
 
 test('Testing onClick events',  () => {
