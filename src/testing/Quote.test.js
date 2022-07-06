@@ -1,10 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Quote from '../components/Navbar/Quote'
-
+import Quote from '../components/Navbar/Quote';
 
 it('renders correctly', () => {
   const tree = renderer
-  .create(<Quote />).toJSON();
+    .create(<Quote />).toJSON();
   expect(tree).toMatchSnapshot();
 });

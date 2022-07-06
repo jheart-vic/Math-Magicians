@@ -1,10 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Home from '../components/Navbar/Home'
-
+import Home from '../components/Navbar/Home';
 
 it('renders correctly', () => {
   const tree = renderer
-  .create(<Home />).toJSON();
+    .create(<Home />).toJSON();
   expect(tree).toMatchSnapshot();
 });
