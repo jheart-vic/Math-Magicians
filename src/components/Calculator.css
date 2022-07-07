@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 4em;
+}
+
+.text {
+  width: 40%;
+  font-size: 2em;
+  text-align: center;
+  font-family: cursive;
+  transform: translateY(-32px);
+  margin-right: 2em;
+}
+
+.input {
+  width: 400px;
+  background-color: rgb(133 134 148);
+  height: 80px;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding: 5px;
+  grid-column-end: 5;
+  grid-column-start: 1;
+  outline: 1px solid rgb(190 190 190);
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e4e4;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(224 224 224);
+  width: 400px;
+  gap: 0;
+  font-weight: bolder;
+}
+
+button {
+  width: 100%;
+  height: 4em;
+  outline: 1px solid rgb(190 190 190);
+  gap: 0;
+  margin: 0;
+  border: none;
+  background-color: rgb(208, 208, 208);
+}
+
+.bigBtn {
+  grid-column-end: 3;
+  grid-column-start: 1;
+}
+
+.Dot {
+  font-weight: bolder;
+}
+
+.orange {
+  background-color: rgb(245 145 62);
+}
