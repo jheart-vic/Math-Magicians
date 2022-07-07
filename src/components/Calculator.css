@@ -37,7 +37,7 @@
   color: #fff;
   display: flex;
   align-items: flex-end;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 5px;
   grid-column-end: 5;
   grid-column-start: 1;
