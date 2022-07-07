@@ -5,7 +5,7 @@
 
 - HTML
 - CSS
--React
+- React
 
 ## Live demo link (Not Available)
 
