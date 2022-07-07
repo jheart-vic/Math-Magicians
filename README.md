@@ -8,7 +8,7 @@
 -React
 
 ## Live demo link 
-[Heroku](https://react-app-math-magician.herokuapp.com/)
+- Deployed on Heroku [click here](https://react-app-math-magician.herokuapp.com/)
 
 ## Getting Started
 
