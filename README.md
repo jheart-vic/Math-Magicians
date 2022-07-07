@@ -7,7 +7,9 @@
 - CSS
 - React
 
-## Live demo link (Not Available)
+## Live demo link
+- View App on Heroku[Here](https://react-app-math-magician.herokuapp.com/)
+- View App on Netlify[Here](https://fantastic-starship-522cac.netlify.app/)
 
 ## Getting Started
 
