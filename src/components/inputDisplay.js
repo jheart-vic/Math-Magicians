@@ -5,7 +5,7 @@ const InputResult = (props) => {
   const { displayState } = props;
 
   return (
-    <div className="input">
+    <div className="input" data-testid="displayInput">
       {displayState.next || displayState.operation || displayState.total || 0}
     </div>
   );
