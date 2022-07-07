@@ -7,7 +7,8 @@
 - CSS
 -React
 
-## Live demo link (Not Available)
+## Live demo link 
+[Heroku](https://react-app-math-magician.herokuapp.com/)
 
 ## Getting Started
 
